@@ -1,2 +1,1 @@
-5 + 6
-
+console.log("Hello!")
