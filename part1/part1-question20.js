@@ -1,10 +1,14 @@
 
 function timer(){
-let d = new Date();
-let time = d.toLocaleTimeString();
+  let d = new Date();
+  let time = d.toLocaleTimeString();
+  console.log(time);
 }
 
 var myVar = setInterval(timer,1000);
 
-console.log(myVar);
+myVar;
+
+//clearInterval(myVar);
+
   
