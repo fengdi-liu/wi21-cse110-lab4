@@ -1,4 +1,5 @@
-1. Before the function call, nothing will happen for line 11, since there is nothing to pass in. But after the function call, the line 11 will print out: 3, since the code is displying the i, which is the total number of prices.
+##### Solution #####
+- 1. Before the function call, nothing will happen for line 11, since there is nothing to pass in. But after the function call, the line 11 will print out: 3, since the code is displying the i, which is the total number of prices.
 
 2. Before the function call, nothing will happen for line 12, since there is nothing to pass in. But after the function call, the line 12 will print out: 150, since the code is displying the last price's discounted price, which is 300 * 0.5 = 150.
 
