@@ -1,4 +1,4 @@
-##### Solution #####
+#### Solution ####
 
 1. Before the function call, nothing will happen for line 11, since there is nothing to pass in. But after the function call, the line 11 will print out: 3, since the code is displying the i, which is the total number of prices.
 
@@ -24,4 +24,17 @@
 
 12. It will return TypeError, since the const data type, which not allow us change the data value. 
 
-13. 
+13. a. When accessing the value of the name in the studnet object, will return "Sarah"
+    b. When accessing the value of the Grad Year property in the student object, will return 2022
+    c. Calling the function for the greeting property in the student object, will return "Hello"
+    d. Accessing the name property of the object in the Favorite Teacher property in student, will return { name: 'Thomas Powell', course: 'CSE 110' }
+    e. Access the first index in the array of the courseLoad property of the student object, will return CSE 110
+    
+14. a. output is 32, since the 3 inside " ",2 was converted to a string, so "3" +2 will consider two string, the answer is 32.
+    b. output is 1, since the 3 there is converted to integer, 3-2 =1, the answer is 1.
+    c. output is 3, because null converted into 0. 3+0=3.
+    d. output is 3null, because null is converted into string "null".
+    e. output is 4, because true here was converted into 1, 3+1=4.
+    f. output is 0, because false is considered as 0, null converted into 0.
+    g. output is 3undefined, because undefined is converted into string.
+    h. output is NaN, because the variabl is not a number so show me NaN. 
