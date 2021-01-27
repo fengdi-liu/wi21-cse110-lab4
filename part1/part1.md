@@ -1,4 +1,4 @@
-#### Solution ####
+#### Solution of Part 1 ####
 
 1. Before the function call, nothing will happen for line 11, since there is nothing to pass in. But after the function call, the line 11 will print out: 3, since the code is displying the i, which is the total number of prices.
 
@@ -38,3 +38,24 @@
     - f. output is 0, because false is considered as 0, null converted into 0.
     - g. output is 3undefined, because undefined is converted into string.
     - h. output is NaN, because the variabl is not a number so show me NaN. 
+    
+15. - a. output is true, since '2' is converted into integer, and 2 is greater than 1.
+    - b. output is false, since they still condersidered as string, and 2 is greater than 1.
+    - c. output is true, since '2' is converted into integer, so they are equal.
+    - d. output is false, because the two numbers are not equal type.
+    - e. output is false, since true converted into 1, and which is not equal to 2.
+    - f. output is true, since boolean() is find the expression is true, which is same type, same value with true. 
+    
+16.  "==" means equal to, just value comparision. "===" means equal value and equal type, compare value and type.
+
+17. It print "How are you?" Since 2 is not equal to true, so it move to branch else if, and there is no comparison here, just 2, so else if(2) will be exected. 
+
+18. The print out is redCars: 21 ;blueCars: 45 ;greenCars: 12; raceCars: 5; blackCars: 40; rareCars: 2. The code is inside part1-question18.js file.
+
+19. The callback in the parameter means execut the array first, then call the other parameter. When I called the parameter modifyArray([1,2,3], doSomething), first I will step into this function, iterater this array from 1 to 3, then in each iteration, call the doSomething function, and update the array, then the array value from 1,2,3 increase to 3,4,5, then we execute the last step calulate, use 3 x 2,update the value, 4 x 2 update the value into new array, and 5 x 2 update the value into new array. So the result will be 6,8,10
+
+20. The code is inside part1-question20.js file.
+
+21. When I run the excatly same code with the lab discription, the terminal show me ReferenceError since i is not defined. After I defined i = "num", the output of the code is num; 4; 3; 2. 3 and 2 has been called by setTimeout function, but 3's time out time is 0, 2's time out time is 1 second, so 2 showed 1 second later then other values.
+
+
