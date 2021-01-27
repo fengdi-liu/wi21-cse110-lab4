@@ -6,17 +6,19 @@
 
 4. The function will return:[ 50, 100, 150 ], since the function call will return the discounted, which is final price. And there are three prices passed in, each price times 0.5 will be their final price.
 
-5. Before the function call, nothing will happen for line 11, since there is nothing to pass in. But after the function call, the line 11 will print out: 3, since the code is displying the i, which is the total number of prices.
+5. Before the function call, nothing will happen for line 11, since there is nothing to pass in. But after the function call, the line 11 will print out: 3, since the code is displying the i, which with let keyword, and let can be used in a loop, so which will display the total number of prices.
 
 6. Before the function call, nothing will happen for line 12, since there is nothing to pass in. But after the function call, error showed  "ReferenceError: discountedPrice is not defined". The variable discounted and finalPrice are defined as let, which is fine. But the "discountedPrice" is defined as let type in side a for loop, and for the let behave, it is not allowed to use inside the loop.  
 
 7. Before the function call, nothing will happen for line 13, since there is nothing to pass in. But after the function call,error showed  "ReferenceError: discountedPrice is not defined". The variable discounted and finalPrice are defined as let, which is fine. But the "discountedPrice" is defined as let type in side a for loop, and for the let behave, it is not allowed to use inside the loop. And "finalPrice" is related to "discountedPrice", so error will keep to here. 
 
+8. The function returns "Reference Error", since variables declared with the "let" keyword have block scope, let can not with other let in same scope.   
 
+9. Before the function call, nothing will happen for line 11, since there is nothing to pass in. But after the function call, TypeError: Assignment to constant variable. showed, Because variables defined with const behave like let variables, except they cannot be reassigned.
 
+10. Before the function call, nothing will happen for line 12, since there is nothing to pass in. But after the function call, TypeError: Assignment to constant variable. showed, Because variables defined with const behave like let variables, except they cannot be reassigned.
 
+11. Before the function call, nothing will happen for line 13, since there is nothing to pass in. But after the function call, TypeError: Assignment to constant variable. showed, Because variables defined with const behave like let variables, except they cannot be reassigned.
 
+12. It will return TypeError, since the const data type, which not allow us change the data value. 
 
-5. Before the function call, nothing will happen for line 11, since there is nothing to pass in. But after the function call, the line 11 will print out: 3, since the code is displying the i, which is the total number of prices.
-
-6. Before the function call, nothing will happen for line 12, since there is nothing to pass in. But after the function call, error showed  "ReferenceError: discountedPrice is not defined". Since the "discountedPrice" is defined as const in side a for loop, and for the const behave, it is not allowed to use inside the loop.  
