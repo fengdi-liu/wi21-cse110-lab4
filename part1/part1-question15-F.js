@@ -1,2 +1,2 @@
-console.log(false + null);
+console.log(true===Boolean(2));
 
