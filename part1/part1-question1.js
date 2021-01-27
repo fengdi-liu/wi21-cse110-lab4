@@ -1,5 +1,5 @@
 function discountPrices (prices, discount){
-    var discounted = [];
+    var discounted =[];
     var finalPrice =0;
 
     for(var i=0; i < prices.length; i++){
@@ -15,3 +15,5 @@ function discountPrices (prices, discount){
     return discounted;
 
 }
+
+  console.log(discountPrices([100, 200, 300], .5));
