@@ -2,7 +2,7 @@
 - The bug was caused by the variable type. The nums1 and num2 are string, and if you add two strings together, which will connect two strings together and return a string.
 - I use type convert. parseInt(), to convert num1 and num2 into integer, and when 2 integers add up, will return a correct answer.
 
-#### DevTool s####
+#### DevTools question ####
 1. The name of the new json file is: Fetchcitylots.json
 2. part2.js file is initiated the download of the new file.
 3. The content length of json file is: 11687628
