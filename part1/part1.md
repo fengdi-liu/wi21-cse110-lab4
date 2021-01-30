@@ -1,10 +1,10 @@
 #### Solution of Part 1 ####
 
-1. Before the function call, nothing will happen for line 11, since there is nothing to pass in. But after the function call, the line 11 will print out: 3, since the code is displying the i, which is the total number of prices.
+1. The i is the total number of elements of the prices in the parameter. Before the function call, nothing will happen for line 11, since there is nothing to pass in. But after the function call, the line 11 will print out: 3, since the code is displying the i, which is the total number of prices.
 
-1. Before the function call, nothing will happen for line 12, since there is nothing to pass in. But after the function call, the line 12 will print out: 150, since the code is displying the last price's discounted price, which is 300 * 0.5 = 150.
+1. DiscountedPrice will display the discounted price based on the orignial price. Before the function call, nothing will happen for line 12, since there is nothing to pass in. But after the function call, the line 12 will print out: 150, since the code will display the last price's discounted price, which is 300 * 0.5 = 150.
 
-1. Before the function call, nothing will happen for line 13, since there is nothing to pass in. But after the function call, the line 13 will print out: 150, since the code is displying the last price's final price, which is  300 * 0.5 = 150.
+1. This line will display the final price, which will be rounded discount price. The Before the function call, nothing will happen for line 13, since there is nothing to pass in. But after the function call, the line 13 will print out: 150, since the code will display the last price's final price, which is  300 * 0.5 = 150.
 
 4. The function will return:[ 50, 100, 150 ], since the function call will return the discounted, which is final price. And there are three prices passed in, each price times 0.5 will be their final price.
 
