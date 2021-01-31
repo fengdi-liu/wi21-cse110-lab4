@@ -56,6 +56,7 @@
 
 20. The code is inside part1-question20.js file.
 
-21. When I run the excatly same code with the lab discription, the terminal show me ReferenceError since i is not defined. After I defined i = "num", the output of the code is num; 4; 3; 2. 3 and 2 has been called by setTimeout function, but 3's time out time is 0, 2's time out time is 1 second, so 2 showed 1 second later then other values.
+21. When I run the excatly same code with the lab discription, the terminal show me ReferenceError since i is not defined. After I defined i = "num", the output of the code is num; 4; 3; 2.
+Here 3 and 2 has been called by setTimeout function, but 3's time out time is 0, 2's time out time is 1 second, so 2 showed 1 second later then other values.
 
 
