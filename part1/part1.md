@@ -12,7 +12,7 @@
 
 6. Before the function call, nothing will happen for line 12, since there is nothing to pass in. But after the function call, error showed  "ReferenceError: discountedPrice is not defined". The variable discounted and finalPrice are defined as let, which is fine. But the "discountedPrice" is defined as let type in side a for loop, and for the let behave, it is not allowed to use inside the loop.  
 
-7. Before the function call, nothing will happen for line 13, since there is nothing to pass in. But after the function call,error showed  "ReferenceError: discountedPrice is not defined". The variable discounted and finalPrice are defined as let, which is fine. But the "discountedPrice" is defined as let type in side a for loop, and for the let behave, it is not allowed to use inside the loop. And "finalPrice" is related to "discountedPrice", so error will keep to here. 
+7. Before the function call, nothing will happen for line 13, since there is nothing to pass in. But after the function call,error showed  "ReferenceError: discountedPrice is not defined". The variable discounted and finalPrice are defined as let, which is fine. But the "discountedPrice" is defined as let type in side a for loop, and for the let behave, it is not allowed to use inside the loop. And "finalPrice" is related to "discountedPrice", so error will keep to here. But if I comment out line 12, it will display: 150
 
 8. The function returns "Reference Error", since variables declared with the "let" keyword have block scope, let can not with other let in same scope.   
 
