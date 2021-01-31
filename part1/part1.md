@@ -50,7 +50,7 @@
 
 17. It print "How are you?" Since 2 is not equal to true, so it move to branch else if, and there is no comparison here, just 2, so else if(2) will be exected. 
 
-18. The print out is redCars: 21 ;blueCars: 45 ;greenCars: 12; raceCars: 5; blackCars: 40; rareCars: 2. The code is inside part1-question18.js file.
+18. The print out is 21 ; 45 ; 5; 2. The code is inside part1-question18.js file.
 
 19. The callback in the parameter means execut the array first, then call the other parameter. When I called the parameter modifyArray([1,2,3], doSomething), first I will step into this function, iterater this array from 1 to 3, then in each iteration, call the doSomething function, and update the array, then the array value from 1,2,3 increase to 3,4,5, then we execute the last step calulate, use 3 x 2,update the value, 4 x 2 update the value into new array, and 5 x 2 update the value into new array. So the result will be 6,8,10
 
