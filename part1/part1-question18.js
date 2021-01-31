@@ -8,5 +8,12 @@ let statistics = {
 }
 
 for (property in statistics) {
-  console.log(`${property}: ${statistics[property]}`);
+  `${property}: ${statistics[property]}`
+  var string = property;
+  var num = statistics[property];
+
+  if(string.charAt(0)== "r" || num/2 ==1){
+    console.log(statistics[property]); 
+  }
+
 }
