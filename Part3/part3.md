@@ -3,7 +3,7 @@
 - I use type convert. parseInt(), to convert num1 and num2 into integer, and when 2 integers add up, will return a correct answer.
 
 #### DevTools question ####
-1. The name of the new json file is: Fetchcitylots.json
+1. The name of the new json file is: citylots.json
 2. part2.js file is initiated the download of the new file.
 3. The content length of json file is: 11687628
 4. It takes me 77.51 ms to download. 
